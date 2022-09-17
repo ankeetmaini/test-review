@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mandatory reviews
-        uses: ankeetmaini/mandatory-reviews@v2
+        uses: ankeetmaini/mandatory-reviews@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
